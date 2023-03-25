@@ -1,3 +1,6 @@
+Tugas Oleh Laila Ainur Rahma/V3922026
+
+
 Program ini dibuat dengan konsep modul dan paket. Direktori src berisi 2 direktori yaitu luas dan volume. Setiap direktori memiliki masing-masing 6 modul yang berisi rumus perhitungan luas dan volume beberapa bentuk bangun datar dan bangun ruang. Setiap modul ini diimpor ke dalam program utama untuk dijalankan.
 
 Direktori "luas"
