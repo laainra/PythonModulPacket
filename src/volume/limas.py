@@ -1,4 +1,3 @@
-
 def volumeLimas():
     segi = int(input("Masukkan jumlah segi  antara 3-6:"))  # meminta input dari pengguna untuk jumlah sisi
     tinggi = float(input("Masukkan ukuruan tinggi dalam centimeter:")) # meminta input dari pengguna untuk tinggi limas
@@ -22,6 +21,3 @@ def volumeLimas():
         print(f"Volume limas segi enam adalah {volume} cm\u00B3") # menampilkan volume
     else:
         print("OOOPS, segi yang dimasukkan tidak valid. coba lagi.") # mencetak pesan error jika jumlah sisi yang dimasukkan tidak valid.
-
-
-volumeLimas()

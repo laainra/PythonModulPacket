@@ -34,13 +34,13 @@ def main():
             luasTrapesium() #memanggil function perhitungan bangun
         else:
             print("OOPSS, Pilihan kamu invalid. ") # jika memilih pilihan yang tidak valid
-            pil = input("Coba lagi? y/n").lower # input untuk mengulang atau tidak
+            pil = input("Coba lagi? y/n").lower() # input untuk mengulang atau tidak
             if pil=="y":
                 main()# jika memilih untuk mengulang, jalankan fungsi main()
             else:
                 exit() # jika tidak, keluar dari program
     elif choice == 2: # jika memilih bangun 3D
-        print("Pilihan Bangun\n1. Persegi\n2. Persegi Panjang\n3. Segitiga\n4. Lingkaran\n5. Jajar Genjang\n6. Trapesium") # menampilkan pilihan bangun 3D
+        print("Pilihan Bangun\n1. Kubus\n2. Balok\n3. Tabung\n4. Kerucut\n5. Limas\n6. Prisma") # menampilkan pilihan bangun 3D
         twoD = int(input("Masukkan bangun 3D 1 - 6:")) # meminta input pilihan bangun 3D
         if twoD == 1: # jika memilih bangun kubus
             volumeKubus() #memanggil function perhitungan bangun
@@ -56,14 +56,14 @@ def main():
             volumePrisma() #memanggil function perhitungan bangun
         else:
             print("OOPSS, Pilihan kamu invalid. ") # jika memilih pilihan yang tidak valid
-            pil = input("Coba lagi? y/n").lower # input untuk mengulang atau tidak
+            pil = input("Coba lagi? y/n").lower() # input untuk mengulang atau tidak
             if pil=="y":
                 main() # jika memilih untuk mengulang, jalankan fungsi main()
             else:
                 exit() # jika tidak, keluar dari program
     else:
         print("OOPSS, Pilihan kamu invalid. ") # jika memilih pilihan yang tidak valid
-        pil = input("Coba lagi? y/n").lower # input untuk mengulang atau tidak
+        pil = input("Coba lagi? y/n").lower() # input untuk mengulang atau tidak
         if pil=="y":
             main() # jika memilih untuk mengulang, jalankan fungsi main()
         else:
