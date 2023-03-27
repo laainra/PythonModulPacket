@@ -16,8 +16,8 @@ from volume.prisma import *
 
 #mendeklarasikan function main() atau fungsi utama
 def main():
-    confirm = "y"
-    while confirm=="y":
+    confirm = "" # inisialisasi nilai awal confirm dengan string kosong
+    while confirm=="y": # melakukan perulangan jika nilai variabel samadengan y
         choice = int(input("Pilihan Bangun\n1. 2 Dimensi\n2. 3 Dimensi\nMasukkan bangun:")) # meminta input pilihan dimensi bangun
         if choice == 1: # jika pilihan bangun 2D
             print("Pilihan Bangun\n1. Persegi\n2. Persegi Panjang\n3. Segitiga\n4. Lingkaran\n5. Jajar Genjang\n6. Trapesium") # menampilkan pilihan bangun 2D
